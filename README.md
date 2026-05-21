@@ -36,7 +36,7 @@ Clone o repositório e configure seu ambiente virtual (Linux):
 ```bash
 # Clone o repositório
 git clone https://github.com/CarolB57/evasao-computacao-brasil
-cd nome-do-repositorio
+cd evasao-computacao-brasil
 
 # Crie e ative um ambiente virtual
 python3 -m venv venv
