@@ -18,10 +18,11 @@ Os dados empíricos foram extraídos dos **Microdados do Censo da Educação Sup
 ## Metodologia e Processamento
 
 Para garantir a integridade da análise e evitar a distorção por dados duplicados de polos/turnos, o pipeline de dados seguiu as seguintes etapas:
-1. **Merge:** Junção das tabelas de Cadastro de Cursos e Instituições (IES) utilizando a chave primária `CO_IES`.
-2. **Agregação:** Uso do método `groupby` focado na chave primária `CO_CURSO` para consolidar o número real de alunos por unidade acadêmica.
-3. **Engenharia de Recursos:** Criação das taxas percentuais relativas (Taxa de Evasão e Percentual de Mulheres por turma).
-4. **Estatística:** Utilização da **Mediana** e do **Intervalo Interquartil (IQR)** para contornar a alta assimetria e presença de *outliers* extremos nos dados educacionais.
+1. **Extração e Merge:** Junção das tabelas de Cadastro de Cursos e Instituições (IES) utilizando a chave relacional `CO_IES`.
+2. **Limpeza:** Tratamento e remoção de valores nulos (*NaN*), garantindo que apenas registros consistentes e estatisticamente válidos alimentassem o cálculo das taxas.
+3. **Agregação:** Uso do método `groupby` focado na chave `CO_CURSO` para consolidar o número real de alunos por unidade acadêmica estrutural.
+4. **Engenharia de Recursos:** Criação das variáveis contínuas relativas (Taxa de Evasão e Percentual de Mulheres por turma).
+5. **Estatística Robusta:** Utilização da **Mediana** e do **Intervalo Interquartil (IQR)** para contornar a alta assimetria positiva e a presença de *outliers* extremos nos dados educacionais.
 
 ## Principais Resultados
 
