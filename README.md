@@ -10,7 +10,7 @@ O Brasil enfrenta um déficit projetado de mais de 500 mil profissionais de tecn
 
 * **Python 3**
 * **Pandas** (Tratamento de dados, agregações e Feature Engineering)
-* **Matplotlib / Seaborn** (Visualização de dados e Boxplots)
+* **Pandas / Matplotlib** (Visualização de dados e Boxplots)
 
 ## Fonte de Dados
 Os dados empíricos foram extraídos dos **Microdados do Censo da Educação Superior (2024)**, disponibilizados pelo [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-da-educacao-superior).
