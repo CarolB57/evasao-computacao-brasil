@@ -23,7 +23,7 @@ Para garantir a integridade da análise e evitar a distorção por dados duplica
 3. **Engenharia de Recursos:** Criação das taxas percentuais relativas (Taxa de Evasão e Percentual de Mulheres por turma).
 4. **Estatística:** Utilização da **Mediana** e do **Intervalo Interquartil (IQR)** para contornar a alta assimetria e presença de *outliers* extremos nos dados educacionais.
 
-## Principais Achados
+## Principais Resultados
 
 * **Rede de Ensino:** A rede privada apresenta uma evasão mediana quase duas vezes superior (25,16%) em comparação à rede pública (13,08%).
 * **Modalidade:** O formato EAD demonstrou alta instabilidade, atingindo uma mediana de evasão crítica de 31,82%, contra 18,75% do formato presencial.
