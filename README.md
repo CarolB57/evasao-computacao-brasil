@@ -29,7 +29,7 @@ Para garantir a integridade da análise e evitar a distorção por dados duplica
 * **Modalidade:** O formato EAD demonstrou alta instabilidade, atingindo uma mediana de evasão crítica de 31,82%, contra 18,75% do formato presencial.
 * **Diversidade de Gênero:** Turmas com poucas mulheres (com até 10% de mulheres) registram as maiores taxas de abandono (24,71%). A presença feminina estabiliza a retenção, reforçando a importância de redes de apoio à diversidade.
 
-## Como executar o projeto localmente
+## Como executar o projeto
 
 Clone o repositório e configure seu ambiente virtual (Linux):
 
