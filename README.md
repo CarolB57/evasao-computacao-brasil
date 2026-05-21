@@ -6,7 +6,7 @@ Um estudo multidimensional sobre o abandono discente em cursos de tecnologia, ut
 
 O Brasil enfrenta um déficit projetado de mais de 500 mil profissionais de tecnologia até 2029. Apesar do aumento de matrículas na área de Computação, a retenção de alunos é um desafio crítico. Este projeto utiliza análise de dados para mapear onde o "vazamento" de talentos é mais grave, fornecendo um diagnóstico nacional embasado em dados públicos oficiais.
 
-## Tecnologias Utilizadas
+## Linguagens/Bibliotecas Utilizadas
 
 * **Python 3**
 * **Pandas** (Tratamento de dados, agregações e Feature Engineering)
