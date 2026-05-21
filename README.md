@@ -35,7 +35,7 @@ Clone o repositório e configure seu ambiente virtual (Linux):
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/CarolB57/evasao-computacao-brasil](https://github.com/CarolB57/evasao-computacao-brasil)
+git clone https://github.com/CarolB57/evasao-computacao-brasil
 cd nome-do-repositorio
 
 # Crie e ative um ambiente virtual
