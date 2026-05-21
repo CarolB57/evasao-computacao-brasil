@@ -31,7 +31,7 @@ Para garantir a integridade da análise e evitar a distorção por dados duplica
 
 ## Como executar o projeto
 
-Clone o repositório e configure seu ambiente virtual (Linux):
+Clone o repositório e configure seu ambiente virtual:
 
 ```bash
 # Clone o repositório
